@@ -107,21 +107,49 @@
           <div class="project-details__content-main">
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+              <p class="project-details__desc-para" style="text-align: justify;">
+                <strong>Context: Tackling Facial Image Inpainting</strong> <br />
+                In our computer vision class, my teammate and I embarked on a
+                project to tackle the challenging problem of facial image inpainting.
+                To guide our work, we turned to the groundbreaking research presented
+                in the 2023 paper by Shruti S Phutke and Subrahmanyam Murala titled
+                "Nested Deformable Multi-head Attention for Facial Image Inpainting."
+                This paper introduced novel techniques that inspired us to implement
+                advanced methods in our project.
               </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+              <p class="project-details__desc-para" style="text-align: justify;">
+                <strong>Technique Spotlight: NDMHA for Improved Inpainting</strong> <br />
+                Our main focus was on the application of the Nested Deformable
+                Multi-head Attention (NDMHA) layer, which served as a crucial
+                component of our approach. This attention mechanism, along with
+                incorporating transformer-based methodologies, enabled us to
+                efficiently capture long-term dependencies and significantly
+                improve the accuracy of facial image inpainting. Additionally,
+                we integrated other state-of-the-art techniques such as Deformable
+                Convolution (used in NDMHA), Gated Convolution, and Gated Feed
+                Forward layers into our model. These elements enhanced feature
+                extraction, information flow, and refinement, further augmenting
+                the performance of our inpainting system.
+              </p>
+              <p class="project-details__desc-para" style="text-align: justify;">
+                <strong>Results: Promising Potential for NDMHA</strong> <br />
+                Despite encountering computational limitations that prevented us from
+                training on the entire dataset and achieving the desired number of epochs,
+                our preliminary results showed promising potential for the novel architecture
+                incorporating the NDMHA layer. We observed that the NDMHA-based model
+                exhibited superior reconstruction capabilities compared to the baseline
+                U-net autoencoder. While the baseline model produced higher-quality results
+                initially, as we continued training the NDMHA model for more epochs, we
+                observed a gradual improvement in image quality. This suggests that with
+                additional training and more computational resources, we anticipate the
+                NDMHA-based architecture to outperform the baseline model, both in terms
+                of reconstruction accuracy and image quality. Our findings highlight the
+                importance of further exploration and experimentation with the NDMHA
+                technique in order to fully realize its potential for facial image
+                inpainting tasks.
+              </p>
+              <p class="project-details__desc-para" style="text-align: justify;">
+                <strong>For more details, please refer to the GitHub link, where you can find the complete report and the original paper.</strong>
               </p>
             </div>
             <div class="project-details__tools-used">
@@ -134,7 +162,7 @@
               </div>
             </div>
             <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
+              <h3 class="project-details__content-title">Some Links</h3>
               <a
                 href="https://github.com/mhd-baz/Facial-Image-Inpainting"
                 class="btn btn--med btn--theme project-details__links-btn"
